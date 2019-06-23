@@ -1,0 +1,72 @@
+@import './config';
+
+// Header section
+.header-section {
+    background-image: url('/dist/img/baner-bg.jpg');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: 200%;
+    position: relative;
+}
+
+.img-model {
+    position: absolute;
+    max-width: 50vw;
+    max-height: 100%;
+    min-height: 90%;
+    right: 0;
+    bottom: -2rem;
+}
+.header-content {
+    margin-top: 1.5rem;
+width: 50%;
+
+    &__title {
+        margin-bottom: .5rem;
+    }
+
+    &__subtitle {
+        margin-bottom: 2rem;
+    }
+
+    &__img {
+        margin-bottom: 2rem;
+    }
+
+    &__main {
+        line-height: 1.8;
+        margin-bottom: 3rem;
+    }
+}
+
+// Menu
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 2.5rem 0;
+
+    &__logo {
+        font-weight: 900;
+    }
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+
+    &__item {
+        padding: 0 5px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+
+    &-link {
+        color: $defaultTextColor;
+        text-decoration: none;
+    }
+}

@@ -1,6 +1,9 @@
 // Import Montserrat font
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=latin-ext');
 
+// Import variables mixins etc.
+@import './config';
+
 * {
     padding: 0;
     margin: 0;
@@ -9,4 +12,36 @@
 
 body,html {
     font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    height: 100%;
+    color: $defaultTextColor;
 }
+
+// Global items
+
+.l-container {
+    margin: 0 auto;
+    padding: 0 $pagePadding;
+}
+
+.text-blue {
+    color: $deepBlue;
+}
+
+.img {
+    width: 100%;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    border: none;
+
+    &--lightBlue {
+        background: #00aeed;
+        color: #fff;
+    }
+}
+
+// Header styles
+@import './header';
