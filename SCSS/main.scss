@@ -15,7 +15,6 @@ body,html {
     font-family: 'Montserrat', sans-serif;
     color: $defaultTextColor;
     width: 100%;
-    background: yellow;
     font-size: $mobileFontSize;
 }
 
@@ -42,9 +41,17 @@ body,html {
 
     &--lightBlue {
         background: #00aeed;
-        color: #fff;
+        color: $defaultTextColor;
+    }
+
+    &--darkBlue {
+        background: #3b4374;
+        color: $defaultTextColor;
     }
 }
 
 // Header styles
 @import './header';
+
+// Who we are
+@import './whoWeAre';

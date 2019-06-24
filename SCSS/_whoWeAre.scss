@@ -1,0 +1,21 @@
+@import './config';
+
+// Main section
+.who-we-are {
+    padding: 4rem 0;
+    background-color: #0081ff;
+    font-size: $mobileFontSize;
+    text-align: center;
+
+    &__img {
+        padding: 1.2rem 0;
+    }
+
+    &__header {
+        padding-bottom: 1.2rem;
+    }
+
+    &__content {
+        margin-bottom: 2rem;
+    }
+}
