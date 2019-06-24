@@ -1,0 +1,17 @@
+// Services main section
+.services {
+    background: #007af3;
+    text-align: center;
+    padding: 4rem 0;
+
+    &__subheader {
+        padding: 1rem 0;
+    }
+}
+
+.services-grid {
+
+    &__item {
+        margin-bottom: 3rem;
+    }
+}

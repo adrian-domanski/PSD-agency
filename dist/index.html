@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,63 +9,103 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
-<body>
-    
 
-        <!-- Header section -->
-<section class="header-section">
+<body>
+
+
+    <!-- Header section -->
+    <section class="header-section">
         <div class="l-container">
             <!-- Menu -->
-    <navbar class="navbar">
-        <div class="navbar__logo">
-            <img class="img" src="./img/logo.png" alt="Agency logo">
+            <navbar class="navbar">
+                <div class="navbar__logo">
+                    <img class="img" src="./img/logo.png" alt="Agency logo">
+                </div>
+                <ul class="menu">
+                    <li class="menu__item"><a href="#!" class="menu-link">Home</a></li>
+                    <li class="menu__item"><a href="#!" class="menu-link">About Us</a></li>
+                    <li class="menu__item"><a href="#!" class="menu-link">Services</a></li>
+                    <li class="menu__item"><a href="#!" class="menu-link">Profile</a></li>
+                    <li class="menu__item"><a href="#!" class="menu-link">Client</a></li>
+                    <li class="menu__item"><a href="#!" class="menu-link">Blog</a></li>
+                    <li class="menu__item"><a href="#!" class="menu-link">Contact</a></li>
+                </ul>
+                <span class="menu-toggle">
+                    <i class="fas fa-bars bars"></i>
+                </span>
+            </navbar>
+            <!-- Content -->
+            <div class="header-content">
+                <img src="/dist/img/Hello.png" class="header-content__img" alt="hello">
+                <h2 class="header-content__title">My Name is <span class="text-blue">John Doe</span></h2>
+                <p class="header-content__subtitle">Ceo | !st Agency</p>
+                <p class="header-content__main">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aut consequuntur temporibus
+                    quia similique quod tempore rerum impedit fugiat aspernatur expedita dignissimos sed nulla at, id
+                    alias fuga molestias accusamus.
+                </p>
+                <button class="btn btn--lightBlue">Click here</button>
+            </div>
         </div>
-        <ul class="menu">
-            <li class="menu__item"><a href="#!" class="menu-link">Home</a></li>
-            <li class="menu__item"><a href="#!" class="menu-link">About Us</a></li>
-            <li class="menu__item"><a href="#!" class="menu-link">Services</a></li>
-            <li class="menu__item"><a href="#!" class="menu-link">Profile</a></li>
-            <li class="menu__item"><a href="#!" class="menu-link">Client</a></li>
-            <li class="menu__item"><a href="#!" class="menu-link">Blog</a></li>
-            <li class="menu__item"><a href="#!" class="menu-link">Contact</a></li>
-        </ul>
-        <span class="menu-toggle">
-            <i class="fas fa-bars bars"></i>
-        </span>
-    </navbar>
-    <!-- Content -->
-    <div class="header-content">
-        <img src="/dist/img/Hello.png" class="header-content__img" alt="hello">
-        <h2 class="header-content__title">My Name is <span class="text-blue">John Doe</span></h2>
-        <p class="header-content__subtitle">Ceo | !st Agency</p>
-        <p class="header-content__main">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aut consequuntur temporibus quia similique quod tempore rerum impedit fugiat aspernatur expedita dignissimos sed nulla at, id alias fuga molestias accusamus.
-        </p>
-        <button class="btn btn--lightBlue">Click here</button>
-    </div>
-</div>
-    <img src="/dist/img/model.png" alt="Model" class="img-model">
-</section>
+        <img src="/dist/img/model.png" alt="Model" class="img-model">
+    </section>
 
-<!-- Who we are section -->
-<section class="who-we-are">
-    <div class="l-container">
-        <!-- First subsection -->
-        <img src="/dist/img/who-we-are.png" class="who-we-are__img" alt="who we are">
-        <h2 class="who-we-are__header">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-        <p class="who-we-are__content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae facere nam nobis, velit tempora perspiciatis! A sed exercitationem beatae asperiores!
-        </p>
-        <button class="btn btn--darkBlue">Click here</button>
-        <!-- Second subsection -->
-        <p class="who-we-are__content pt-2">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt iste illo saepe consequatur reiciendis praesentium magnam delectus, veritatis iusto illum incidunt adipisci magni, perspiciatis nobis libero hic minima quia assumenda?
-        </p>
-</div>
-</section>
+    <!-- Who we are section -->
+    <section class="who-we-are">
+        <div class="l-container">
+            <!-- First subsection -->
+            <img src="/dist/img/who-we-are.png" class="who-we-are__img" alt="who we are">
+            <h2 class="who-we-are__header">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            <p class="who-we-are__content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae facere nam nobis, velit tempora
+                perspiciatis! A sed exercitationem beatae asperiores!
+            </p>
+            <button class="btn btn--darkBlue">Click here</button>
+            <!-- Second subsection -->
+            <p class="who-we-are__content pt-2">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt iste illo saepe consequatur
+                reiciendis praesentium magnam delectus, veritatis iusto illum incidunt adipisci magni, perspiciatis
+                nobis libero hic minima quia assumenda?
+            </p>
+        </div>
+    </section>
 
-<!-- Services section -->
+    <!-- Services section -->
+    <section class="services">
+        <div class="l-container">
+            <img src="./img/Services.png" class="services__title mb-2" alt="services">
+            <h2 class="services__header mb-3">What I Do...</h2>
 
+            <div class="services-grid">
+                <!-- Social column -->
+                <div class="services-grid__item social-section">
+                    <img src="./img/icon-1.jpg" class="services-icon" alt="social icon">
+                    <h4 class="services__subheader">Lorem ipsum dolor sit amet.</h4>
+                    <p class="services__subcontent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id soluta
+                        ipsa nostrum rem minus tenetur quae repudiandae eligendi ad quibusdam?</p>
+                </div>
+
+                <!-- View column -->
+                <div class="services-grid__item social-section">
+                    <img src="./img/icon-2.jpg" class="services-icon" alt="view icon">
+                    <h4 class="services__subheader">Lorem ipsum dolor sit amet.</h4>
+                    <p class="services__subcontent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id soluta
+                        ipsa nostrum rem minus tenetur quae repudiandae eligendi ad quibusdam?</p>
+                </div>
+
+
+                <!-- Gear column -->
+                <div class="services-grid__item social-section">
+                    <img src="./img/icon-3.jpg" class="services-icon" alt="gear icon">
+                    <h4 class="services__subheader">Lorem ipsum dolor sit amet.</h4>
+                    <p class="services__subcontent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id soluta
+                        ipsa nostrum rem minus tenetur quae repudiandae eligendi ad quibusdam?</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
 
 </body>
+
 </html>
