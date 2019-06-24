@@ -3,11 +3,10 @@
 // Header section
 .header-section {
     background-image: url('/dist/img/baner-bg.jpg');
-    width: 100%;
+    width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
-    height: 700px;
-    background-size: 200%;
+    background-size: cover;
     position: relative;
 }
 
@@ -18,25 +17,29 @@
     min-height: 90%;
     right: 0;
     bottom: -2rem;
+    display: none;
 }
 .header-content {
     margin-top: 1.5rem;
-width: 50%;
+    font-size: $mobileFontSize;
+    padding-bottom: 5rem;
+    text-align: center;
+
 
     &__title {
         margin-bottom: .5rem;
     }
 
     &__subtitle {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
     &__img {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
     &__main {
-        line-height: 1.8;
+        line-height: 1.6;
         margin-bottom: 3rem;
     }
 }
@@ -55,7 +58,8 @@ width: 50%;
 
 .menu {
     list-style-type: none;
-    display: flex;
+    // display: flex;
+    display: none;
 
     &__item {
         padding: 0 5px;
@@ -69,4 +73,10 @@ width: 50%;
         color: $defaultTextColor;
         text-decoration: none;
     }
+}
+
+.bars {
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-size: 2rem;
 }

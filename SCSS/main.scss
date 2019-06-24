@@ -1,6 +1,7 @@
 // Import Montserrat font
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=latin-ext');
-
+// Font Awesome
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 // Import variables mixins etc.
 @import './config';
 
@@ -12,9 +13,10 @@
 
 body,html {
     font-family: 'Montserrat', sans-serif;
-    width: 100vw;
-    height: 100%;
     color: $defaultTextColor;
+    width: 100%;
+    background: yellow;
+    font-size: $mobileFontSize;
 }
 
 // Global items
@@ -33,7 +35,8 @@ body,html {
 }
 
 .btn {
-    padding: 0.5rem 1rem;
+    font-size: $mobileFontSize;
+    padding: 0.5rem 2rem;
     border-radius: 25px;
     border: none;
 
