@@ -11,7 +11,8 @@
     box-sizing: border-box;
 }
 
-body,html {
+body,
+html {
     font-family: 'Montserrat', sans-serif;
     color: $defaultTextColor;
     width: 100%;
@@ -59,3 +60,7 @@ body,html {
 // Services
 
 @import './services';
+
+// Profile
+
+@import './profile';
