@@ -19,6 +19,11 @@ html {
     font-size: $mobileFontSize;
 }
 
+i {
+    font-family: "FontAwesome";
+    font-style: normal;
+}
+
 // Global items
 
 .l-container {
@@ -49,6 +54,11 @@ html {
         background: #3b4374;
         color: $defaultTextColor;
     }
+
+    &--cyanBlue {
+        background: #0280f9;
+        color: $defaultTextColor;
+    }
 }
 
 // Header styles
@@ -72,3 +82,7 @@ html {
 // Blog
 
 @import './blog';
+
+// Footer
+
+@import './footer';
