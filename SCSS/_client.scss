@@ -5,4 +5,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 4rem 0;
+
+    &__title {
+        padding: 1rem 0;
+    }
+}
+
+.client-grid {
+
+    &__item {
+        margin-top: 3rem;
+    }
 }
