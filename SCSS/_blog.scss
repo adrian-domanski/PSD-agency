@@ -1,0 +1,74 @@
+// Blog section
+.blog {
+    text-align: center;
+    padding: 4rem 0;
+    line-height: 1.4;
+}
+
+.blog-info {
+
+    &__header {
+        color: #000;
+        padding: 1rem 0;
+    }
+
+    &__content {
+        color: #3b3b3b;
+    }
+}
+
+.blog-bg {
+
+    &-blue {
+        background-color: #007ef9;
+        padding: 2rem 1rem;
+
+    }
+
+    &-grey {
+        background-color: #eaeaea;
+        color: #353535;
+        height: 250px;
+        padding: 3rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &-black {
+        background-color: #000000;
+        color: #ffffff;
+        height: 250px;
+        padding: 3rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &-image {
+        color: #fff;
+        background: url('/dist/img/beautiful-things.jpg') no-repeat center;
+        padding: 2rem 1rem;
+        background-size: cover;
+
+        &__subheader {
+            padding: 1rem 0;
+        }
+    }
+
+    &-pink {
+        background: #e91d62;
+        padding: 2rem 1rem;
+
+        &__subheader {
+            padding: 1rem 0;
+        }
+    }
+}
+
+// Grid 
+.grid-blog {
+    &__item {
+        margin-top: 1rem;
+    }
+}
