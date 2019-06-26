@@ -2,10 +2,11 @@
 .blog {
     text-align: center;
     padding: 4rem 0;
-    line-height: 1.4;
+    line-height: $lineHeightSpace;
 }
 
 .blog-info {
+    padding-bottom: 2rem;
 
     &__header {
         color: #000;

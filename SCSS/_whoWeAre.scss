@@ -1,9 +1,10 @@
 // Main section
 .who-we-are {
-    padding: 4rem 0;
+    padding: 3rem 0;
     background-color: #0081ff;
     font-size: $mobileFontSize;
     text-align: center;
+
 
     &__img {
         padding: 1.2rem 0;
@@ -15,5 +16,6 @@
 
     &__content {
         margin-bottom: 2rem;
+        line-height: $lineHeightSpace;
     }
 }

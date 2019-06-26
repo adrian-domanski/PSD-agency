@@ -21,7 +21,9 @@
 
     &__label {
         margin: .5rem 0;
+        width: 10rem;
     }
+
 
     &__submit {
         margin: 0 auto;
@@ -81,5 +83,17 @@
 
     &__designed {
         margin-bottom: .8rem;
+    }
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+    text-align: left;
+
+    &:first-child {
+        margin-top: 0;
     }
 }

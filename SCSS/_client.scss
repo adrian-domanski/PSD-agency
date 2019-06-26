@@ -9,6 +9,14 @@
     &__title {
         padding: 1rem 0;
     }
+
+    &__content {
+        line-height: $lineHeightSpace;
+    }
+
+    &__logo {
+        max-width: 100%;
+    }
 }
 
 .client-grid {

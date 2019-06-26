@@ -1,0 +1,256 @@
+// Media queries
+@media screen and (min-width: 768px) {
+    .l-container {
+        padding: 0 4rem;
+    }
+
+
+
+    // Profile 
+
+    // Footer 
+
+    .footer-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-icon-group {
+
+        &__subheader {
+            padding: 0.5rem 0;
+        }
+
+        &__icon {
+            height: 70px;
+        }
+    }
+
+    .footer-socials {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .footer-by {
+        margin-top: 4rem;
+    }
+
+}
+
+
+// Breakpoint min-width 998px
+@media screen and (min-width: 998px) {
+
+    // Header 
+    .header {
+        text-align-last: left;
+
+        &-content {
+            width: 50%;
+            text-align: left;
+        }
+
+        &__model {
+            display: block;
+        }
+    }
+
+    // Who we are
+    .who-we-are {
+        text-align: left;
+    }
+
+    .who-we-are-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align-last: left;
+        grid-gap: 2rem;
+    }
+
+    // Services
+
+    .services-icon {
+        height: 60px;
+    }
+
+    // This needs wider screen!
+
+    // .icon-group {
+    //     display: flex;
+    //     align-items: center;
+    //     position: relative;
+    // }
+
+    // .services {
+
+    //     &-icon {
+    //         width: 50px;
+    //         left: -65px;
+    //         position: absolute;
+    //     }
+    // }
+
+    .services-grid {
+        text-align: center;
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    // Profile
+    .profile-grid {
+        display: grid;
+        grid-template-areas:
+            "gc gc wd cv"
+            "gc gc wd cv"
+            "bc rc wd yt";
+    }
+
+    .profile {
+
+        &__img {
+            width: 100%;
+            height: 100%;
+        }
+
+        &__leaflet {
+            grid-area: gc;
+        }
+
+        &__brochure {
+            grid-area: wd;
+        }
+
+        &__cv {
+            grid-area: cv;
+        }
+
+        &__flyer {
+            grid-area: bc;
+        }
+
+        &__card {
+            grid-area: rc;
+        }
+
+        &__mobile {
+            grid-area: yt;
+        }
+    }
+
+    // Client
+    .client-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 3rem;
+    }
+
+    // Blog 
+    .grid-blog {
+        display: grid;
+        grid-template-areas:
+            "wb wb db db"
+            "bb bb db db"
+            "gb blb pb pb";
+        grid-gap: 1rem;
+
+        &__item {
+            margin-top: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+    .blog {
+
+        &-info {
+            grid-area: wb;
+        }
+
+        &-bg-blue {
+            grid-area: bb;
+        }
+
+        &-bg-grey {
+            grid-area: gb;
+        }
+
+        &-bg-black {
+            grid-area: blb;
+        }
+
+        &-bg-image {
+            grid-area: db;
+        }
+
+        &-bg-pink {
+            grid-area: pb;
+        }
+
+    }
+
+    // Footer
+    .footer {
+        text-align: left;
+
+        &-by {
+            text-align: center;
+        }
+
+        &__title {
+            position: relative;
+            left: -1.5rem;
+            text-align: left;
+        }
+
+        &-socials {
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        &-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            text-align: left;
+        }
+
+        &-icons {
+            grid-template-columns: 1fr;
+        }
+
+        &-icon-group {
+            display: flex;
+            text-align: left;
+            line-height: 1;
+            align-items: center;
+        }
+
+        &-icon-group__icon {
+            height: 50px;
+            position: relative;
+            left: -1.5rem;
+        }
+
+        &-form__submit {
+
+            margin: 2rem 0 0 0;
+        }
+
+        &-form__label {
+            // w
+        }
+    }
+
+    .input-group {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .align-left {
+        position: relative;
+        left: -1.5rem;
+    }
+
+}
