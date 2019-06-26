@@ -1,7 +1,8 @@
 // Media queries
+
 @media screen and (min-width: 768px) {
     .l-container {
-        padding: 0 4rem;
+        padding: 2rem 4rem;
     }
 
 
@@ -22,7 +23,7 @@
         }
 
         &__icon {
-            height: 70px;
+            height: 60px;
         }
     }
 
@@ -39,6 +40,23 @@
 
 // Breakpoint min-width 998px
 @media screen and (min-width: 998px) {
+
+    // Menu
+    .menu {
+        display: flex;
+        justify-content: space-between;
+
+
+        &__item {
+            font-size: .9rem;
+        }
+
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
 
     // Header 
     .header {
@@ -71,23 +89,6 @@
     .services-icon {
         height: 60px;
     }
-
-    // This needs wider screen!
-
-    // .icon-group {
-    //     display: flex;
-    //     align-items: center;
-    //     position: relative;
-    // }
-
-    // .services {
-
-    //     &-icon {
-    //         width: 50px;
-    //         left: -65px;
-    //         position: absolute;
-    //     }
-    // }
 
     .services-grid {
         text-align: center;
@@ -253,4 +254,43 @@
         left: -1.5rem;
     }
 
+}
+
+// This needs wider screen!
+
+// .icon-group {
+//     display: flex;
+//     align-items: center;
+//     position: relative;
+// }
+
+// .services {
+
+//     &-icon {
+//         width: 50px;
+//         left: -65px;
+//         position: absolute;
+//     }
+// }
+
+
+// 1200px  and wider
+@media screen and (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+
+    .header__model {
+        right: 15%;
+    }
+
+    // Menu
+    .menu {
+
+        &__item {
+            padding: 0 .8rem;
+            font-size: 1rem;
+        }
+
+    }
 }
