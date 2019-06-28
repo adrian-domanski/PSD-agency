@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0 user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Agency PSD</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
     <!-- My CSS -->
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
@@ -21,7 +22,7 @@
                 <div class="navbar-logo">
                     <img class="navbar-logo__img" src="./img/logo.png" alt="Agency logo">
                 </div>
-                <ul class="menu">
+                <ul class="menu" id="mobile-menu">
                     <li class="menu__item"><a href="#!" class="menu-link">Home</a></li>
                     <li class="menu__item"><a href="#!" class="menu-link">About Us</a></li>
                     <li class="menu__item"><a href="#!" class="menu-link">Services</a></li>
@@ -31,9 +32,11 @@
                     <li class="menu__item"><a href="#!" class="menu-link">Contact</a></li>
                 </ul>
                 <span class="menu-toggle">
-                    <i class="fas fa-bars bars"></i>
+                    <i class="fas fa-bars bars" id="mobile-toggle"></i>
                 </span>
             </navbar>
+
+
             <!-- Content -->
             <div class="header-content">
                 <img src="/dist/img/Hello.png" class="header-content__img" alt="hello">
@@ -359,6 +362,9 @@
 
         </div>
     </footer>
+
+    <!-- Scripts -->
+    <script src="./JS/index.js"></script>
 
 </body>
 

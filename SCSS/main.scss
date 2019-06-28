@@ -62,20 +62,35 @@ i {
     padding: 0.5rem 2rem;
     border-radius: 25px;
     border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color .3s ease;
 
     &--lightBlue {
         background: #00aeed;
         color: $defaultTextColor;
+
+        &:hover {
+            background: darken(#00aeed, 10%)
+        }
     }
 
     &--darkBlue {
         background: #3b4374;
         color: $defaultTextColor;
+
+        &:hover {
+            background: lighten(#3b4374, 10%)
+        }
     }
 
     &--cyanBlue {
         background: #0280f9;
         color: $defaultTextColor;
+
+        &:hover {
+            background: darken(#0280f9, 10%)
+        }
     }
 }
 
