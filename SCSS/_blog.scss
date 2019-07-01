@@ -48,9 +48,12 @@
 
     &-image {
         color: #fff;
-        background: url('/dist/img/beautiful-things.jpg') no-repeat center;
-        padding: 2rem 1rem;
+        background: url('../img/beautiful-things.jpg') no-repeat center;
+        padding: 4rem 1rem;
         background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
 
         &__subheader {
             padding: 1rem 0;

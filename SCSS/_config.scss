@@ -9,7 +9,6 @@ $lineHeightSpace: 1.4;
 // // // // // // //
 
 .pt-2 {
-
     padding-top: 2rem;
 }
 
@@ -21,12 +20,15 @@ $lineHeightSpace: 1.4;
     margin-bottom: 3rem;
 }
 
+.lightbox-reset {
+    color: #fff;
+}
+
 // // // // //
 //  Mixins  //
 // // // // //
 
 @mixin mobileNavStyle {
-
     display: flex;
     position: fixed;
     top: 0;

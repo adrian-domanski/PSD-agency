@@ -1,17 +1,79 @@
+@import "./config";
+
 // Profile section
 .profile {
     text-align: center;
     padding-top: 4rem;
 
+    &-grid__item {
+        position: relative;
+    }
+
     &__title {
         color: #000;
         font-weight: 900;
-        font-size: 1.5rem;
+        // font-size: 1.5rem;
         padding: 2rem 0 4rem 0;
     }
 
     &__img {
         width: 100%;
         display: block;
+    }
+
+    &-img-hover {
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        height: 100%;
+        flex-direction: column;
+        opacity: 0;
+        background-color: rgba(0, 0, 255, 0.438);
+        text-shadow: 0 0 5px #000;
+        transition: opacity 0.3s ease-in-out;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        &__header {
+            font-size: 1rem;
+
+            &--bigger {
+                font-size: 2rem;
+            }
+        }
+
+        &__content {
+            padding: 0 2rem;
+            display: none;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            bottom: 8%;
+            left: 8%;
+            width: 20%;
+            height: 20%;
+            border-bottom: 2px solid #fff;
+            border-left: 2px solid #fff;
+        }
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: 8%;
+            right: 8%;
+            width: 20%;
+            height: 20%;
+            border-top: 2px solid #fff;
+            border-right: 2px solid #fff;
+        }
     }
 }

@@ -24,7 +24,6 @@ const toggleMenu = () => {
             setTimeout(() => (menu_active = false));
         }
     }
-
 };
 
 // Toggle mobile menu - click on menu icon
@@ -58,3 +57,9 @@ document.addEventListener("click", e => {
 window.addEventListener("resize", e => {
     if (window.innerWidth >= 998) mobile_menu.classList = "menu";
 });
+
+// // // // // // // //
+// Light box gallery //
+// // // // // // // //
+
+var lightbox = $('.gallery a').simpleLightbox();
