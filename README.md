@@ -13,8 +13,6 @@ From Photoshop to HTML/CSS project.
 * Photoshop
 
 
-## How to open it?
+## Demo
 
-Simply clone or download this repository and run dist/index.html file
-or
 Open [https://adrian-domanski.github.io/psd-to-html/](https://adrian-domanski.github.io/psd-to-html/) to view it in the browser.
