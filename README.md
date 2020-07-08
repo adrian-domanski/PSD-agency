@@ -14,7 +14,6 @@ From Photoshop to HTML/CSS project.
 
 
 ## How to open it?
-https://adrian-domanski.github.io/psd-to-html/
 
 Simply clone or download this repository and run dist/index.html file
 or
